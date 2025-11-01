@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — Practical AI for teams | Miracle Monday</title>
+    <link rel="stylesheet" href="resources.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="/" class="logo">Miracle Monday</a>
+            
+            <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+               <ul>                
+                    <li><a href="book.html">Use Cases</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="/resources#classroom" class="arrow-link">Free Classroom →</a></li>
+                    <li><a href="#book-form" class="button button-primary nav-cta">Book Free Audit</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content" style="margin-right: auto; align-self: center; align-items:center; max-width:75;"> <h1>Practical AI for Teams</h1>
+                    <p class="hero-intro">Learn how teams use AI agents — practical playbooks, case studies, and pilot reports.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-bar">
+            <div class="container" style="text-align: center; max-width: 800px;">
+                <span class="section-subheading">Featured Post</span>
+                <h2 style="font-size: 1.75rem;">How we ran a 2-week lead qualification pilot that doubled qualified meetings</h2>
+                <p>A short summary of the results from our latest AI pilot, demonstrating a clear ROI and a massive boost in sales efficiency.</p>
+                <div class="cta-links" style="justify-content: flex-start;">
+                    <a href="/resources#case-studies" class="button button-primary">Read full case study &rarr;</a>
+                    <a href="/book#book-form" class="button button-secondary">Book a Free Audit &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container" style="padding-top: 5rem; padding-bottom: 5rem; display: flex; flex-direction: column; gap: 3rem;">
+            
+            <div class="blog-main-content" style="flex: 3;">
+                
+                <section id="categories" class="values" style="padding-top: 0;">
+                    <h2>Categories</h2>
+                    <ul class="values-list" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                        <li>
+                            <h3><a href="/blog?category=ai-ops" class="arrow-link">AI Ops & Governance &rarr;</a></h3>
+                            <p>Runbooks, monitoring, security.</p>
+                        </li>
+                        <li>
+                            <h3><a href="/blog?category=marketing" class="arrow-link">Marketing Automation &rarr;</a></h3>
+                            <p>SEO scaling, personalization, nurture.</p>
+                        </li>
+                        <li>
+                            <h3><a href="/blog?category=support" class="arrow-link">Customer Support &rarr;</a></h3>
+                            <p>Triage, KB generation, multilingual.</p>
+                        </li>
+                        <li>
+                            <h3><a href="/blog?category=finance" class="arrow-link">Finance & Ops &rarr;</a></h3>
+                            <p>Reconciliation, forecasting, pricing.</p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="recent-posts" class="process" style="text-align: center; padding-top: 3rem;">
+                    <h2>Recent posts</h2>
+                    <ol class="process-list" style="max-width: none;">
+                        <li>
+                            <h3>Pilot playbook: Inbox Manager that recovers 30% of inbound leads</h3>
+                            <p>A short excerpt detailing how this playbook works... <br> <a href="/book#book-form" class="arrow-link">Book Audit &rarr;</a></p>
+                        </li>
+                        <li>
+                            <h3>From tickets to KB: Automating knowledge base generation</h3>
+                            <p>An excerpt on turning support tickets into a living resource... <br> <a href="/book#book-form" class="arrow-link">Book Audit &rarr;</a></p>
+                        </li>
+                        <li>
+                            <h3>How to measure pilot ROI in 30 days</h3>
+                            <p>An excerpt explaining the key metrics for a successful pilot... <br><a href="/book#book-form" class="arrow-link">Book Audit &rarr;</a></p>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+
+            <aside class="blog-sidebar" style="flex: 1; position: sticky; top: calc(var(--header-height) + 2rem); align-self: flex-start;">
+                
+                <div class="problem-card" style="margin-bottom: 2rem;">
+                    <h3 style="text-align: center;">Keep up with weekly AI playbooks</h3>
+                    <p style="margin-bottom: 1.5rem; text-align: center;">Practical templates, demo clips, and pilot checklists delivered monthly.</p>
+                    
+                    <form action="#" class="subscribe-form">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" id="email" placeholder="Your Email Address" style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid var(--color-border); background-color: var(--color-bg-primary); color: var(--color-text-primary); margin-bottom: 0.75rem;">
+                        
+                        <label for="role" class="sr-only">Role (optional)</label>
+                        <input type="text" id="role" placeholder="Your Role (optional)" style="width: 100%; padding: 0.75rem; border-radius: 6px; border: 1px solid var(--color-border); background-color: var(--color-bg-primary); color: var(--color-text-primary); margin-bottom: 1rem;">
+                        
+                        <button type="submit" class="button button-primary" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+
+                <div class="problem-card">
+                    <a href="/book#book-form" class="button button-primary" style="width: 100%; text-align: center; margin-bottom: 1rem;">Book a Free Audit &rarr;</a>
+                    <a href="/resources#classroom" class="button button-secondary" style="width: 100%; text-align: center;">Join the Free Classroom &rarr;</a>
+                </div>
+            </aside>
+            
+        </div>
+        
+        <style>
+            @media (min-width: 900px) {
+                .container.blog-layout {
+                    flex-direction: row;
+                }
+            }
+        </style>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p style="margin-bottom: 1rem; max-width: 60ch; margin-left: auto; margin-right: auto; color: var(--color-text-primary);">
+                Miracle Monday: We help teams run AI pilots that actually deliver business value.
+            </p>
+            <div class="footer-links">
+                <a href="/">Home</a> |
+                <a href="/about">About</a> |
+                <a href="/book">Book</a> |
+                <a href="/blog">Blog</a> |
+                <a href="/resources">Resources</a> |
+                <a href="/contact">Contact</a>
+            </div>
+            <p style="margin-top: 1rem;">&copy; 2025 Miracle Monday. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="resources.js"></script>
+</body>
+</html>
